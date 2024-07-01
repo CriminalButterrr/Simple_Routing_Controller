@@ -1,0 +1,27 @@
+.circle {
+    width: 1em;
+    height: 1em;
+    background: red;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.square {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: blue;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-bottom: 2em solid green;
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
